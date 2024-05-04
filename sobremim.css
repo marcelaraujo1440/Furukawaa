@@ -22,7 +22,7 @@ nav .insta{
 }
 nav .logo a{
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 35px;
     font-weight: 600;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
@@ -42,7 +42,7 @@ nav li{
 }
 nav li a{
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 18px;
     font-weight: 500;
     padding: 8px 15px;

@@ -12,7 +12,62 @@ body{
     background-color: whitesmoke;
     
 }
+nav{
+    background: rgb(178, 35, 35);
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    box-shadow: inset;
+    box-shadow: 0 0px 10px black;
+    
+}
+nav .insta{
+    position: relative;
+    left: 10%;
+}
+nav .logo a{
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
 
+  
+  
+nav ul{
+
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+}
+nav li{
+    margin-left: 20px;
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+nav li a:hover{
+    background-color: black;
+    color: white;
+
+}
+.insta{
+    width: 20px;
+    border-radius: 0;
+   
+}
 #form{
     position: relative;
     top: 50%;
