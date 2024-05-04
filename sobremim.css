@@ -6,7 +6,7 @@
     font-size: 17px;
 }
 nav{
-    background-color: whitesmoke;
+    background: rgb(178, 35, 35);
     padding: 20px 100px;
     display: flex;
     justify-content: space-between;
@@ -52,8 +52,8 @@ nav li a{
 
 }
 nav li a:hover{
-    background-color: grey;
-    color: black;
+    background-color: black;
+    color: white;
 
 }
 

@@ -6,7 +6,7 @@
     font-size: 17px;
 }
 nav{
-    background-color: whitesmoke;
+    background: rgb(178, 35, 35);
     padding: 20px 100px;
     display: flex;
     justify-content: space-between;
@@ -43,15 +43,18 @@ nav li a{
     font-weight: 500;
     padding: 8px 15px;
     border-radius: 5px;
-    transition: 0.3s;
+    transition: 0.5s;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 nav li a:hover{
-    background-color: grey;
-    color: black;
+    background-color: black;
+    color: whitesmoke;
 
 }
+nav .insta{
+    position: relative;
+    left: 10%;}
 
 h1{
     text-align: center;
@@ -59,7 +62,8 @@ h1{
 }
 p{
     text-align: center;
-    margin: 20px;
+    margin: 40px;
+    padding:    5%;
 }
 .section {
     width: 48%; 
@@ -83,4 +87,9 @@ footer {
         text-align: center;
         color: black;
         border-top: 2px solid black;
+    }
+    .insta{
+        width: 20px;
+        border-radius: 0;
+       
     }
