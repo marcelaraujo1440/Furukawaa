@@ -153,3 +153,7 @@ nav li a:hover{
 label {
     font-size: 17px;
 }
+div {
+    display: flex;
+    align-items: center;
+}
