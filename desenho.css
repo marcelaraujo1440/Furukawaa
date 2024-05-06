@@ -240,3 +240,12 @@ nav li a:hover{
     color: whitesmoke;
 
 }
+img{
+    width: 200px;
+    height: 250px;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
